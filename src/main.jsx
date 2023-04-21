@@ -5,9 +5,11 @@ import Home from './pages/Home';
 import Contato from './pages/Contato'
 import Sobre from './pages/Sobre'
 import Error from './pages/Error';
-import './Index.css'
 import Footer from './components/Footer'
 import FooterMob from './components/FooterMob'
+import PoliticaDePrivacidade from './pages/PoliticaDePrivacidade'
+import TermosDeUso from './pages/TermosDeUso';
+import './Index.css'
 
 
 import {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "/sobre",
     element: <Sobre/>,
+  },
+  {
+    path: "/politica-de-privacidade",
+    element: <PoliticaDePrivacidade/>,
+  },
+  {
+    path: "/termos-de-uso",
+    element: <TermosDeUso/>,
   },
 ]);
 

@@ -19,8 +19,8 @@ function Footer() {
                 </div>
                 <div className="flex gap-6">
                     <p className="font-bold cursor-pointer">© Xperience 2023</p>
-                    <p className="font-bold cursor-pointer">Politica de privacidade</p>
-                    <p className="font-bold cursor-pointer">Termos de uso</p>
+                    <a className="font-bold" href="/politica-de-privacidade">Politica de privacidade</a>
+                    <a className="font-bold" href="/termos-de-uso">Termos de uso</a>
                 </div>
             </div>
         </div>
