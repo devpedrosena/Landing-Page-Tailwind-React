@@ -1,3 +1,3 @@
 # Landing-Page-Tailwind-React
 
-[![Demo](https://xperienceweb.netlify.app/)
+[Demo](https://xperienceweb.netlify.app/)
